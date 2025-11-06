@@ -1,4 +1,4 @@
 FROM almalinux:9
-LABEL COURSE = "Devops" \
-      TRAINER = "sivakumar" \
-      DURATION = "120 HRS" 
+LABEL COURSE="Devops" \
+      TRAINER="sivakumar" \
+      DURATION="120 HRS" 
