@@ -1,6 +1,7 @@
 FROM almalinux:9
 RUN dnf install nginx -y
 RUN mkdir /tmp/work_dir
+RUN pwd
 WORKDIR /tmp/work_dir
 RUN echo "I am in work_dir"> hello.txt
 CMD ["sleep", "1000"]
